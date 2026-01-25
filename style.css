@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+section{
+    padding: 20px 0;
+}
+/*-----Header-----*/
+.container{
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 13px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #484848;
+     padding: 8px 13px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+.nav-menu ul li a:hover{
+    background-color: #484848;
+    color: #ffffff;
+    padding: 8px 13px;
+    border-radius: 7px;
+    
+}
+.nav-menu .signup{
+    background-color: #484848;
+    color: #ffffff;
+    padding: 8px 13px;
+    border-radius: 7px;
+}
+
+/*-----Hero-----*/
+
+.left-image img, .right-image img{
+    width: auto;
+    height: auto;
+    background-color: #484848;
+    padding: 20px 20px;
+    border-radius: 8px;
+
+}
+.hero-content h1{
+    font-size: 72px;
+    color: #000000;
+}
+.hero-section h2{
+    font-size: 92px;
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+}
+.hero-content h3{
+    font-size: 24px;
+    color: #484848;
+}
+.hero-content .shop-now-btn{
+    background-color: #000000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+/*-----Deals Section-----*/
+
+ .deals{
+    background-color: #f1f0f0;
+ }
+ .deals-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+ }
+ .deals .content-area{
+    
+    padding: 20px 30px;
+    border-radius: 7px;
+ }
+.deals .deals-content-btn{
+    background-color: #000000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 7px;
+    color: #ffffff;
+ }
+ .deal-lower-content .countdown{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+ }
+ .time-box{
+    background-color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    padding: 10px 25px;
+    border-radius: 7px;
+    line-height: 20px;
+ }
+ .time-box h3{
+    font-size: 24px;
+    font-weight: 800;
+    color: #000000;
+ }
+  .time-box p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+ }
+
+ .product-area .product-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+ }
+.product-area .product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.product-area .product-images  .large-product {
+    width: 350px;
+    height: 500px;
+    border-radius: 8px;
+}
+.product-area .product-images .medium-product {
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+}
+.product-area .product-images .medium-product  span{
+    font-size: 90px;
+    line-height: 5px;
+}
+
+.product-area .product-images  .small-product{
+    width: 280px;
+    height: 380px;
+    border-radius: 8px;
+}
+
+/*-----Slider Section-----*/
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, #7d7e7d 0%,#474646 44%);
+
+}
+.slider .left-side{
+    width: 50%;
+    padding: 30px 40px;
+}
+.slider-content h1{
+    font-size: 78px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.slider-content h3{
+    font-size: 28px;
+    margin-top: 20px;
+     color: #ffffff;
+}
+.slider-content h4{
+    font-size: 18px;
+    margin-top: 10px;
+     color: #ffffff;
+}
+.slider-content p{
+    margin-top: 10px;
+    font-size: 18px;
+     color: #ffffff;
+}
