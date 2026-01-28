@@ -13,52 +13,11 @@ section{
     padding: 20px 0;
 }
 /*-----Header-----*/
-.container{
-    width: auto;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-menu{
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 13px;
-}
-.nav-menu a{
-    text-decoration: none;
-    color: #484848;
-     padding: 8px 13px;
-}
-.nav-menu ul{
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    
-}
-.nav-menu ul li a:hover{
-    background-color: #484848;
-    color: #ffffff;
-    padding: 8px 13px;
-    border-radius: 7px;
-    
-}
-.nav-menu .signup{
-    background-color: #484848;
-    color: #ffffff;
-    padding: 8px 13px;
-    border-radius: 7px;
-}
+  
 
 /*-----Hero-----*/
 
-.left-image img, .right-image img{
+/* .left-image img, .right-image img{
     width: auto;
     height: auto;
     background-color: #484848;
@@ -85,23 +44,14 @@ section{
     padding: 12px 30px;
     font-size: 18px;
     border-radius: 7px;
-}
+} */
 /*-----Deals Section-----*/
 
- .deals{
+  .deals{
     background-color: #f1f0f0;
  }
- .deals-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
- }
- .deals .content-area{
-    
-    padding: 20px 30px;
-    border-radius: 7px;
- }
+
+
 .deals .deals-content-btn{
     background-color: #000000;
     border: none;
@@ -110,11 +60,7 @@ section{
     border-radius: 7px;
     color: #ffffff;
  }
- .deal-lower-content .countdown{
-    display: flex;
-    gap: 15px;
-    margin-top: 15px;
- }
+
  .time-box{
     background-color: #ffffff;
     margin-top: 20px;
@@ -136,41 +82,19 @@ section{
     color: #000000;
  }
 
- .product-area .product-images{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
- }
-.product-area .product img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 7px;
+.deal-img {
+  width: 100%;
+  max-height: 480px;   /* sirf limit */
+  height: auto;        /* natural ratio */
+  object-fit: contain; /* crop nahi */
+  display: block;
 }
-.product-area .product-images  .large-product {
-    width: 350px;
-    height: 500px;
-    border-radius: 8px;
-}
-.product-area .product-images .medium-product {
-    width: 300px;
-    height: 450px;
-    border-radius: 8px;
-}
-.product-area .product-images .medium-product  span{
-    font-size: 90px;
-    line-height: 5px;
-}
-
-.product-area .product-images  .small-product{
-    width: 280px;
-    height: 380px;
-    border-radius: 8px;
+.deal-small{
+    max-height: 250px;
 }
 
 /*-----New Arrival Products Section-----*/
-.ecommerce-section .category-btn{
+ .ecommerce-section .category-btn{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -182,6 +106,7 @@ section{
     margin-left: 20px;
 
 }
+/*
 .box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -222,7 +147,7 @@ section{
 .box .card .heading img{
     width: 80px;
     height: 20px;
-}
+} */
 
 /*-----Slider Section-----*/
 .slider{
@@ -337,19 +262,10 @@ section{
 
 
 /*-----Subscribe Section-----*/
-.subscribe-wrapper{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-}
-.subscribe-wrapper .center{
-    text-align: center;
-    
-}
+
+
 .subscribe-form input{
     padding: 12px 20px;
-    width: 300px;
     border-radius: 7px;
     border: 1px solid #cccccc;
 }
@@ -363,11 +279,7 @@ section{
     margin-left: 10px;
 }
 /*-----Footer Section-----*/
-footer ul{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
+
 footer ul li a{
     text-decoration: none;
     color: #484848;

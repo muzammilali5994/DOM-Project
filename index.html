@@ -10,47 +10,52 @@
 <body>
     
     <!--  Header -->
-    <header>
-        <div class="container nav">
-            <div class="logo">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-white ">
+        <div class="container ">
+            <a class="navbar-brand ">
                 <img src="./images/FASCO.png" alt="">
-            </div>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Deals</a></li>
-                    <li><a href="#">New Arrival</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#" class="signup">Sign Up</a></li>
+            </a>
+           <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Deals</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">New Arrival</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Packages</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+                    <li class="nav-item"><a href="#" class="btn btn-dark">Sign Up</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
     <!--  Header Closed -->
 
     <!--  Hero Section  -->
-    <section class="hero-section">
-        <div class="container hero-container d-flex justify-content-center align-items-center">
-            <div class="left-image">
-                <img src="./images/Hero Left Image.png" alt="">
-            </div>
-            <div class="hero-content text-center ms-5 me-5">
-                <div class="top-image">
-                    <img src="./images/Hero-Center-Up.png" alt="">
+    <section class="hero py-5">
+        <div class="container ">
+            <div class="row align-items-center text-center text-lg-start">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <img src="./images/Hero Left Image.png" alt="">
                 </div>
-                
-                <h1 class="mt-2">ULTIMATE</h1>
-                <h2 class="mt-2">SALE</h2>
-                <button class="shop-now-btn btn btn-primary mb-2 mt-2">Shop Now</button>
-                
-                <div class="bottom-image mt-4">
-                    <img src="./images/Hero-Center-Down.png" alt="">    
+                <div class="col-12 col-lg-6 text-center">
+                    <div class="top-image">
+                        <img src="./images/Hero-Center-Up.png" alt="">
+                    </div>
+                    
+                    <h1 class="mt-2">ULTIMATE</h1>
+                    <h2 class="mt-2">SALE</h2>
+                    <button class="shop-now-btn btn btn-primary mb-2 mt-2">Shop Now</button>
+                    
+                    <div class="bottom-image mt-4">
+                        <img src="./images/Hero-Center-Down.png" alt="">    
+                    </div>
+                    
                 </div>
-                
-            </div>
-            <div class="right-image">
-                <img src="./images/Hero-Right-Image.png" alt="">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <img src="./images/Hero-Right-Image.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -67,51 +72,50 @@
 
     
     <!--  Deals Of Month  Section  -->
-    <section class="deals">
-        <div class="container deals-wrapper">
-            <div class="content-area text-right col-6 ">
-                <div class="deal-upper-content">
-                    <h2>Deals Of The Month</h2>
-                    <p>Check out our best deals of the month on a wide range of products. Don't miss out on these limited-time offers!</p>
-                    <button class="deals-content-btn">Buy Now</button>
+    <section class="deals py-5">
+        <div class="container">
+             <div class="row ">
+                <div class=" col-12 col-lg-6 mb-4 ">
+                    <div class="content-area">
+                        <h2>Deals Of The Month</h2>
+                        <p>Check out our best deals of the month on a wide range of products. Don't miss out on these limited-time offers!</p>
+                        
+                        <button class="deals-content-btn">Buy Now</button>
+                    
+                        <div class="  mb-4">
+                            <h2>Hurry, Before Its Too Late</h2>
+                            <div class="countdown d-flex gap-3 flex-wrap ">
+                                <div class="days time-box">
+                                    <h3>12</h3>
+                                    <p>Days</p>
+                                </div>
+                                <div class="hours time-box">
+                                    <h3>09</h3>
+                                    <p>Hr</p>
+                                </div>
+                                <div class="minutes time-box">
+                                    <h3>45</h3>
+                                    <p>Min</p>
+                                </div>
+                                <div class="seconds time-box">
+                                    <h3>30</h3>
+                                    <p>Sec</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="deal-lower-content  mt-4">
-                    <h2>Hurry, Before Its Too Late</h2>
-                    <div class="countdown ">
-                        <div class="days time-box">
-                            <h3>12</h3>
-                            <p>Days</p>
+                <div class=" col-12 col-lg-6 ">
+                    <div class="row g-3">
+                        <div class="col-4 large-image ">
+                            <img src="./images/Deal1.png" alt="" class="img-fluid deal-img rounded">
                         </div>
-                        <div class="hours time-box">
-                            <h3>09</h3>
-                            <p>Hr</p>
+                        <div class="col-4">
+                            <img src="./images/Deal2.png" alt="" class="img-fluid deal-img rounded" >
                         </div>
-                        <div class="minutes time-box">
-                            <h3>45</h3>
-                            <p>Min</p>
+                        <div class="col-4 small-product">
+                            <img src="./images/Deal3.png" alt="" class="img-fluid deal-img deal-small rounded">
                         </div>
-                        <div class="seconds time-box">
-                            <h3>30</h3>
-                            <p>Sec</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-area col-6 ">
-                <div class="product-images ">
-                    <div class="product large-product">
-                        <img src="./images/Deal1.png" alt="">
-                    </div>
-                    <div class="product  medium-product">
-                        <img src="./images/Deal2.png" alt="">
-                        <div class="dot ms-2">
-                            <span>.</span>
-                            <span>.</span>
-                            <span>.</span>
-                        </div>
-                    </div>
-                    <div class="product small-product">
-                        <img src="./images/Deal3.png" alt="">
                     </div>
                 </div>
             </div>
@@ -134,102 +138,104 @@
                 <button>Men Accessories</button>
                 <button>Deals</button>
             </div>
-            <div class="box">
-                <div class="card">
-                    <img src="./images/product1.png" alt="">
-                    <div class="content">
-                        <div class="heading mt-2">
-                        <h3>Shiny Dress</h3>
-                        <img src="./images/stars.png" alt="">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card shadow-sm rounded">
+                            <img src="./images/product1.png" alt="" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>Shiny Dress</h3>
+                                    <img src="./images/stars.png" alt="" >
+                                </div>
+                                <p class="text-muted small mt-1">4.1 Rating </p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>$450</h3>
+                                    <P>Sold Out</P>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="rating mt-1">
-                        <h3>4.1 Customer Review</h3>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card shadow-sm rounded">
+                            <img src="./images/product2.png" alt="" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>Shiny Dress</h3>
+                                    <img src="./images/stars.png" alt="" >
+                                </div>
+                                <p class="text-muted small mt-1">4.1 Rating </p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>$450</h3>
+                                    <P>Sold Out</P>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="price mt-1">
-                        <h3>$450</h3>
-                        <P>Sold Out</P>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card shadow-sm rounded">
+                            <img src="./images/product3.png" alt="" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>Shiny Dress</h3>
+                                    <img src="./images/stars.png" alt="" >
+                                </div>
+                                <p class="text-muted small mt-1">4.1 Rating </p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>$450</h3>
+                                    <P>Sold Out</P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card shadow-sm rounded">
+                            <img src="./images/product4.png" alt="" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>Shiny Dress</h3>
+                                    <img src="./images/stars.png" alt="" >
+                                </div>
+                                <p class="text-muted small mt-1">4.1 Rating </p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>$450</h3>
+                                    <P>Sold Out</P>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card shadow-sm rounded">
+                            <img src="./images/product5.png" alt="" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>Shiny Dress</h3>
+                                    <img src="./images/stars.png" alt="" >
+                                </div>
+                                <p class="text-muted small mt-1">4.1 Rating </p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>$450</h3>
+                                    <P>Sold Out</P>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./images/product2.png" alt="">
-                    <div class="content">
-                        <div class="heading mt-2">
-                        <h3>Shiny Dress</h3>
-                        <img src="./images/stars.png" alt="">
-                    </div>
-                    <div class="rating mt-1">
-                        <h3>4.1 Customer Review</h3>
-                    </div>
-                    <div class="price mt-1">
-                        <h3>$450</h3>
-                        <P>Sold Out</P>
-                    </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/product3.png" alt="">
-                    <div class="content">
-                        <div class="heading mt-2">
-                        <h3>Shiny Dress</h3>
-                        <img src="./images/stars.png" alt="">
-                    </div>
-                    <div class="rating mt-1">
-                        <h3>4.1 Customer Review</h3>
-                    </div>
-                    <div class="price mt-1">
-                        <h3>$450</h3>
-                        <P>Sold Out</P>
-                    </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/product4.png" alt="">
-                    <div class="content">
-                        <div class="heading mt-2">
-                        <h3>Shiny Dress</h3>
-                        <img src="./images/stars.png" alt="">
-                    </div>
-                    <div class="rating mt-1">
-                        <h3>4.1 Customer Review</h3>
-                    </div>
-                    <div class="price mt-1">
-                        <h3>$450</h3>
-                        <P>Sold Out</P>
-                    </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/product5.png" alt="">
-                    <div class="content">
-                        <div class="heading mt-2">
-                        <h3>Shiny Dress</h3>
-                        <img src="./images/stars.png" alt="">
-                    </div>
-                    <div class="rating mt-1">
-                        <h3>4.1 Customer Review</h3>
-                    </div>
-                    <div class="price mt-1">
-                        <h3>$450</h3>
-                        <P>Sold Out</P>
-                    </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/product6.png" alt="">
-                    <div class="content">
-                        <div class="heading mt-2">
-                        <h3>Shiny Dress</h3>
-                        <img src="./images/stars.png" alt="">
-                    </div>
-                    <div class="rating mt-1">
-                        <h3>4.1 Customer Review</h3>
-                    </div>
-                    <div class="price mt-1">
-                        <h3>$450</h3>
-                        <P>Sold Out</P>
-                    </div>
-                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card shadow-sm rounded">
+                            <img src="./images/product6.png" alt="" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>Shiny Dress</h3>
+                                    <img src="./images/stars.png" alt="" >
+                                </div>
+                                <p class="text-muted small mt-1">4.1 Rating </p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h3>$450</h3>
+                                    <P>Sold Out</P>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -238,12 +244,12 @@
     <!--  New Arrival Closed -->
 
     <!--  Slider  Section  -->
-    <section class="slider">
-        <div class="slider-wrapper d-flex justify-content-center align-items-center">
-            <div class="left-side col-6">
-                <img src="./images/slider.png" alt="">
+    <section class="container slider">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="./images/slider.png" alt="" class="img-fluid">
             </div>
-            <div class="right-side col-6">
+            <div class="col-lg-6">
                 <div class="slider-content d-flex flex-column justify-content-center align-items-start">
                     <h4 class="">Women Collection</h4>
                     <h1 class="">Peaky Blinders</h1>
@@ -259,34 +265,34 @@
     <!--  Slider Closed -->
 
     <!--  Feature  Section  -->
-    <section class="feature-section">
-        <div class="feature-wrapper">
-            <div class="feature-item">
-                <img src="./images/feature icon.png" alt="">
+    <section class="container">
+        <div class="row g-3 text-center" >
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+                <img src="./images/feature icon.png" alt="" class="me-3">
                 <div class="feature-text">
                     <h4>High Quality</h4>
                     <p>Crafted from Top Material</p>
                 </div>
             </div>
 
-            <div class="feature-item">
-                <img src="./images/feature icon2.png" alt="">
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+                <img src="./images/feature icon2.png" alt="" class="me-3">
                 <div class="feature-text">
                     <h4>Warranty Protection</h4>
                     <p>Over 2 year</p>
                 </div>
             </div>
 
-            <div class="feature-item">
-                <img src="./images/feature icon4.png" alt="">
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+                <img src="./images/feature icon4.png" alt="" class="me-3">
                 <div class="feature-text">
                     <h4>24/7 Support</h4>
                     <p>Dedicated Support</p>
                 </div>
             </div>
 
-            <div class="feature-item">
-                <img src="./images/feature icon3.png" alt="">
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+                <img src="./images/feature icon3.png" alt="" class="me-3">
                 <div class="feature-text">
                     <h4>Free Shipping</h4>
                     <p>Order Over 15$</p>
@@ -298,36 +304,49 @@
     <!--  Feature Closed -->
 
     <!--  Insta Gallery  Section  -->
-    <section class="Insta">
-        <div class="insta-wrapper bg-light">
-            <div class="insta-content text-center  p-4">
-                <h2>Follow Us On Instagram</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+    <section class="Insta container-fluid">
+        <div class="row bg-light">
+
+            <!-- content -->
+            <div class="col-12 insta-content text-center p-4">
+            <h2>Follow Us On Instagram</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div class="insta-gallery">
-                <div class="insta-image">
-                    <img src="./images/insta1.png" alt="">
+
+            <!-- gallery -->
+            <div class="col-12">
+            <div class="row g-3">
+                <div class="col-lg-1"></div>
+                <div class="d-none d-lg-block col-lg-2">
+                <img src="./images/insta1.png" class="img-fluid w-100">
                 </div>
-                <div class="insta-image">
-                    <img src="./images/insta2.png" alt="">
+
+                <div class="d-none d-lg-block col-lg-2">
+                <img src="./images/insta2.png" class="img-fluid w-100">
                 </div>
-                <div class="insta-image">
-                    <img src="./images/insta3.png" alt="">
+
+                <div class="d-none d-lg-block col-lg-2">
+                <img src="./images/insta3.png" class="img-fluid w-100">
                 </div>
-                <div class="insta-image">
-                    <img src="./images/insta4.png" alt="">
+
+                <div class="d-none d-lg-block col-lg-2">
+                <img src="./images/insta4.png" class="img-fluid w-100">
                 </div>
-                <div class="insta-image">
-                    <img src="./images/insta5.png" alt="">
+
+                <div class="d-none d-lg-block col-lg-2">
+                <img src="./images/insta5.png" class="img-fluid w-100">
                 </div>
+
             </div>
+            </div>
+
         </div>
     </section>
 
     <!--   Insta Gallery  Closed -->
 
     <!--  Testimonial  Section  -->
-    <section class="testimonial">
+    <section class="container-fluid">
         <div class="testimonial-wrapper bg-light p-5 text-center">
             <div class="testimonial-heading">
                 <h3>What Our Customers Say</h3>
@@ -371,22 +390,22 @@
     <!--   Testimonial  Closed -->
 
     <!--  Subscribe  Section  -->
-    <section class="subscribe">
-        <div class="subscribe-wrapper bg-light p-5">
-            <div class="left p-4">
-                <img src="./images/Subscribe-left.png" alt="">
+    <section class="container-fluid  subscribe">
+        <div class="row subscribe-wrapper bg-light p-5 text-center">
+            <div class=" col-lg-4 d-none d-lg-block ">
+                <img src="./images/Subscribe-left.png" alt="" class="img-fluid">
             </div>
-            <div class="center p-4">
+            <div class=" col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-center mb-sm-3">
                 <h2>Subscribe To Our Newsletter</h2>
                 <p>Stay updated with our latest news and offers. Subscribe to our newsletter and never miss out!</p>
                 <div class="subscribe-form">
                     <input type="email" placeholder="Enter your email address">
-                    <button class="subscribe-btn mt-3">Subscribe</button>
+                    <button class="subscribe-btn mt-3 mb-3">Subscribe</button>
                 </div>
             </div>
-            <div class="right p-4">
+            <div class=" col-lg-4 d-none d-lg-block ">
                 <div class="img">
-                    <img src="./images/Subscribe-right.png" alt="">
+                    <img src="./images/Subscribe-right.png" alt="" class="img-fluid">
                 </div>
             </div>
                     <hr>
@@ -398,20 +417,26 @@
 
     <!--    Footer  Section  -->
     <footer>
-        <div class="footer-wrapper bg-light text-white p-5">
-            <div class="footer-content d-flex justify-content-between">
-                <div class="footer-logo col-3">
-                    <img src="./images/FASCO.png" alt="">
+        <div class="container">
+            <div class="row text-center text-lg-start mb-4">
+                <div class="d-lg-flex">
+                    <div class="col-12 col-lg-4 col-md-6 col-sm-12 footer-logo col-3">
+                        <img src="./images/FASCO.png" alt="">
+                    </div>
+                    <div class=" col-12 col-lg-8 col-md-6 col-sm-12 mt-sm-4 mt-lg-0  footer-links">
+                        <ul class="footer-links d-flex flex-column flex-lg-row
+                            align-items-center align-items-lg-end
+                            justify-content-center justify-content-lg-end
+                            gap-3 m-0 p-0 list-unstyled ">
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Invoicing</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="#">Support Center</a></li>
-                        <li><a href="#">Invoicing</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
+            </div>
     </footer>
 
     <!--    Footer Closed -->
