@@ -35,3 +35,30 @@ document.getElementById("days").innerText = days;
 document.getElementById("hours").innerText = hours;
 document.getElementById("minutes").innerText = minutes;
 document.getElementById("seconds").innerText = seconds;
+
+
+
+const img = document.getElementById("peakyblinder-img");
+
+img.addEventListener("mouseenter",()=>{
+    img.style.transition = "transform 0.3s";
+    img.style.transform = "scale(1.2)";
+
+})
+img.addEventListener("mouseout",()=>{
+    img.style.transform = "scale(1)"
+})
+
+const instaimg = document.querySelectorAll(".insta-img");
+
+instaimg.forEach(img => {
+    img.addEventListener("mouseenter",()=>{
+  img.style.transition = "transform 0.3s";
+    img.style.transform = "scale(1.2)";
+
+})
+img.addEventListener("mouseout",()=>{
+   img.style.transform = "scale(1)"
+})
+});
+
